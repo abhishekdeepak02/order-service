@@ -1,0 +1,16 @@
+server:
+  port: 8055
+
+spring:
+  h2: 
+    console: 
+      enabled: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/orderdb
+    username: root
+    password: Bornfree-@2
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
